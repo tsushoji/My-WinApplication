@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:startup="clr-namespace:TsuShoWinApp.StartUp"
+                    xmlns:home="clr-namespace:TsuShoWinApp.Home"
+                    xmlns:instagrammedia="clr-namespace:TsuShoWinApp.InstagramMedia"
+                    xmlns:abceedvocabularyappend="clr-namespace:TsuShoWinApp.AbceedVocabularyAppend">
+
+    <!--Startup Page-->
+    <DataTemplate DataType="{x:Type startup:StartUpViewModel}">
+        <startup:StartUpView/>
+    </DataTemplate>
+
+    <!--Home Page-->
+    <DataTemplate DataType="{x:Type home:HomeViewModel}">
+        <home:HomeView/>
+    </DataTemplate>
+
+    <!--InstagramMedia Page-->
+    <DataTemplate DataType="{x:Type instagrammedia:InstagramMediaViewModel}">
+        <instagrammedia:InstagramMediaView/>
+    </DataTemplate>
+
+    <!--InstagramMedia Page-->
+    <DataTemplate DataType="{x:Type abceedvocabularyappend:AbceedVocabularyAppendViewModel}">
+        <abceedvocabularyappend:AbceedVocabularyAppendView/>
+    </DataTemplate>
+
+</ResourceDictionary>

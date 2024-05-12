@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\close_button.jpeg" />
+    <None Remove="Images\close_button_mo.jpeg" />
+    <None Remove="Images\menu_exit.jpeg" />
+    <None Remove="Images\menu_home.jpeg" />
+    <None Remove="Images\menu_right_arrow.jpeg" />
+    <None Remove="Images\menu_web_scraping.jpeg" />
+    <None Remove="Images\menu_web_scraping_book.jpeg" />
+    <None Remove="Images\menu_web_scraping_facebook.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\close_button.jpeg" />
+    <Resource Include="Images\close_button_mo.jpeg" />
+    <Resource Include="Images\menu_home.jpeg" />
+    <Resource Include="Images\menu_right_arrow.jpeg" />
+    <Resource Include="Images\menu_web_scraping.jpeg" />
+    <Resource Include="Images\menu_web_scraping_book.jpeg" />
+    <Resource Include="Images\menu_web_scraping_facebook.jpeg" />
+  </ItemGroup>
+
+</Project>
